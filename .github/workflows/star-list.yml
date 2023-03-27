@@ -13,7 +13,7 @@ jobs:
       - name: Awesome generator
         uses: simonecorsi/mawesome@v2
         with:
-          api-token: ${{ secrets.ACCESS_TOKEN }}
+          api-token: ${{ secrets.API_TOKEN }}
           github-email: ohtoai.choo@gmai.com
           template-path: "/template/README.ejs"
           github-name: ${{ github.repository_owner }}
